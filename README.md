@@ -94,7 +94,7 @@ Node.js for Devs - Getting Dangerous Fast!
 
 ###4:10 - 5:20pm - Common Modules and Frameworks pt. 2
 - _npm home_ request
-- _npm home_ underscore
+- _npm home_ underscore (or lodash)
 - _npm home_ async
 - _npm home_ bluebird
 - _npm home_ mocha
