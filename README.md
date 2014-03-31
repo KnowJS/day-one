@@ -7,6 +7,8 @@ Node.js for Devs - Getting Dangerous Fast!
 - install node
   - http://nodejs.org/download/
   - (preferred) https://github.com/creationix/nvm
+- have an editor installed
+  - http://www.sublimetext.com/2
 
 ###10am - 10:40am : Groking JavaScript
 - numbers, arrays, objects (which are just associative arrays), & functions (which are just a special type of object)
