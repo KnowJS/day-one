@@ -93,6 +93,7 @@ Node.js for Devs - Getting Dangerous Fast!
   - For info on github auth, execute _npm home_ passport-github
   - bonus: Save GitHub account into on User document via mongooses
 - More Learning: http://nodeschool.io/#expressworks
+- https://github.com/mcavage/node-restify
 
 ###10 min break
 
