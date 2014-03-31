@@ -9,6 +9,13 @@ Node.js for Devs - Getting Dangerous Fast!
   - (even better) https://github.com/creationix/nvm
 - have an editor installed
   - http://www.sublimetext.com/2
+- install graphicsmagick
+  - for mac: brew install graphicsmagick
+  - for ubuntu:
+    - $ sudo add-apt-repository ppa:dhor/myway
+    - $ sudo apt-get update
+    - $ sudo apt-get install graphicsmagick
+  - everybody else: http://www.graphicsmagick.org/README.html
 
 ###10am - 10:40am : Groking JavaScript
 - numbers, arrays, objects (which are just associative arrays), & functions (which are just a special type of object)
