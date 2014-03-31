@@ -84,6 +84,8 @@ Node.js for Devs - Getting Dangerous Fast!
   - learn connect and its usage inside express, by navigating express' node_modules
   - Note: Express 4.0 will not include middleware anymore. You'll need to include each in your package.json. This makes express, itself, and your apps more maintainable.
 - Problem: Create a simple express app that lets you log in via GitHub. Once logged in, display overly simple page showing GitHub account info. 
+  - To complete this, you'll need to create a GitHub application [here](https://github.com/settings/applications/new)
+  - For examples of github auth, execute _npm home_ passport-github
   - bonus: Save GitHub account into on User document via mongooses
 - More Learning: http://nodeschool.io/#expressworks
 
