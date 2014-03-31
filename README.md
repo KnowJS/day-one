@@ -45,7 +45,7 @@ Node.js for Devs - Getting Dangerous Fast!
 - npm init, search, info, install (& -g), update, home
   - --save, --save-dev
   - semver
-- node_modules [+ what's in .gitignore & why]
+- node\_modules + echo "node_modules" >> .gitignore
 - Node.js module-making mantras (small, tested, single purpose, compose-able)
 - npm publish
 - Pro Tip: npm link
