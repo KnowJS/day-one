@@ -64,7 +64,7 @@ Node.js for Devs - Getting Dangerous Fast!
   - https://github.com/substack/stream-handbook
 - Pro Tip: https://github.com/isaacs/readable-stream
 - Problems: 
-  - Copy first solution and update to use 'readable' event and read() method from stream api
+  - Copy curl implementation and update to use 'readable' event and read() method from stream api
   - Copy previous solution and change to use pipe() to automatically control back pressure. 
 - More Learning:  http://nodeschool.io/#stream-adventure
   - http://nodestreams.com/
