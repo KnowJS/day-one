@@ -6,7 +6,7 @@ Node.js for Devs - Getting Dangerous Fast!
 ###9am - 10am : Getting Setup (For anyone who isn't yet)
 - install node
   - http://nodejs.org/download/
-  - (preferred) https://github.com/creationix/nvm
+  - (even better) https://github.com/creationix/nvm
 - have an editor installed
   - http://www.sublimetext.com/2
 
