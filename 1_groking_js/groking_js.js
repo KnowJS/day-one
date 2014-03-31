@@ -12,7 +12,7 @@ function save (item, cb) {
 }
 
 /*
- * How can do we use this function to add two numbers?
+ * How can do we use this function to save some data?
  */
 save(2, function (err, result) {
 	console.log('saved one!', result)
@@ -41,79 +41,3 @@ save(2, function (err, result) {
  * saving. Can we make it better?
  */
 
-var completed = 0, results = [];
-function checkDone (err, result) {
-	if (err) throw err;
-	completed++;
-	results.push(result)
-	if (completed === 3) {
-		console.log('saved using checkDone pattern: %j', results);
-	}
-}
-
-save(2, checkDone);
-save(3, checkDone);
-save(4, checkDone);
-
-/*
- * That definitely made the last part look cleaner. 
- * And they're all happening simultaneously now.
- */
-
-var presults = [];
-var input = [2, 3, 4];
-
-function parallelize (item, cb) {
-	save(item, cb);
-}
-
-input.forEach(function (item) {
-	parallelize(item, function checkDone (err, result) {
-		if (err) throw err;
-		presults.push(result)
-		if (presults.length === input.length) {
-			console.log('saved using checkDone pattern 2: %j', presults);
-		}
-	});
-});
-
-/* 
- * Cool. A little cleaner, still.
- * What other ways can we do this?
- */
-
-var events = require('events');
-var util = require('util');
-
-function Saver () {
-	events.EventEmitter.call(this);
-}
-
-util.inherits(Saver, events.EventEmitter);
-
-Saver.prototype.save = function (item) {
-	var self = this;
-	setTimeout(function () {
-		self.emit('saved', { success: true });
-	}, 1000);	
-};
-
-var saver = new Saver();
-
-saver.on('saved', function (result) {
-	console.log('saved using events: %j', result);
-});
-
-/*
- * That's neat, so you can emit an event instead of
- * just relying on callbacks.
- * 
- * Are there any libraries that can help us make this
- * more succinct?
- */
-
-var async = require('async');
-
-async.map([2, 3, 4], save, function (err, results) {
-	console.log('saved with async: %j', results)
-})
