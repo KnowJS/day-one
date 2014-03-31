@@ -7,6 +7,6 @@ request(url, function (err, res, body) {
   if (err) return console.log(err.toString());
   // and it goes ahead and returns you a string, 
   // and does some other fancy stuff for you 
-  // in the process
+  // in the process, like following 301/redirects
   console.log(body);
 });
