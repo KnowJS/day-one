@@ -4,6 +4,9 @@ Node.js for Devs - Getting Dangerous Fast!
 ##Day 1 - Foundations
 
 ###9am - 10am : Getting Setup (For anyone who isn't yet)
+- install node
+  - http://nodejs.org/download/
+  - (preferred) https://github.com/creationix/nvm
 
 ###10am - 10:40am : Groking JavaScript
 - numbers, arrays, objects (which are just associative arrays), & functions (which are just a special type of object)
@@ -15,7 +18,7 @@ Node.js for Devs - Getting Dangerous Fast!
 - More Learning: http://nodeschool.io/#functionaljs
   - http://nodeschool.io/#promiseitwonthurt
 
-###10 min break (time to install Node if you haven't yet)
+###10 min break 
 
 ###10:50am - 11:30am : Groking Node
 - Understanding V8
