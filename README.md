@@ -85,6 +85,7 @@ Node.js for Devs - Getting Dangerous Fast!
   - Note: Express 4.0 will not include middleware anymore. You'll need to include each in your package.json. This makes express, itself, and your apps more maintainable.
 - Problem: Create a simple express app that lets you log in via GitHub. Once logged in, display overly simple page showing GitHub account info. 
   - To complete this, you'll need to create a GitHub application [here](https://github.com/settings/applications/new)
+    - Or use the following values: GITHUB_CLIENT_ID=e653b683c801e699158d GITHUB_CLIENT_SECRET=04ed16d573dbc9b887a3ceca505937262c4a08fa GITHUB_CLIENT_CALLBACKURL=http://127.0.0.1:3000/auth/github/callback 
   - For examples of github auth, execute _npm home_ passport-github
   - bonus: Save GitHub account into on User document via mongooses
 - More Learning: http://nodeschool.io/#expressworks
