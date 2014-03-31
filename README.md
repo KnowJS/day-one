@@ -19,7 +19,7 @@ Node.js for Devs - Getting Dangerous Fast!
 
 ###10am - 10:40am : Groking JavaScript
 - numbers, arrays, objects (which are just associative arrays), & functions (which are just a special type of object)
-- async - callbacks, closures, events & promises
+- asynchronous - callbacks, closures, events & promises
 - variable scope, lifting
 - use strict
 - Pro Tip: refer to https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript
@@ -104,6 +104,7 @@ Node.js for Devs - Getting Dangerous Fast!
 - _npm home_ mocha
 - _npm home_ armrest* open discussion
 - Pro Tip: Favor modules that do one thing well and consider how they will be used (and re-used) in different applications and in other modules
+- Pro Tip: _npm home_ vasync
 - Problem: Update previous solution to use the 'gm' module to resize an uploaded image and return the result to the user. 
   - bonus 1: Save the uploaded image to the filesystem or a database
   - bonus 2: Return three different resized sizes of the uploaded image. Use bluebird or async to manage flow control
