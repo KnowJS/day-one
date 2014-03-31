@@ -109,8 +109,6 @@ Node.js for Devs - Getting Dangerous Fast!
 - Problem: Update previous solution to use the 'gm' module to resize an uploaded image and return the result to the user. 
   - bonus 1: Save the uploaded image to the filesystem or a database
   - bonus 2: Return three different resized sizes of the uploaded image. Use bluebird or async to manage flow control
-  - bonus 3: Save the uploaded images to the filesystem
-  - bonus 4: Save images or reference to them to a database
 - More Learning: http://nodeschool.io/#asyncyou
 
 ###(Stretch) 5:20 - 6:00 - Deployment 
