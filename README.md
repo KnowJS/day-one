@@ -71,6 +71,7 @@ Node.js for Devs - Getting Dangerous Fast!
   - https://github.com/substack/stream-handbook
   - https://www.youtube.com/watch?v=UHZpk4LwCLE#t=1290
   - https://www.youtube.com/watch?v=9llfAByho98
+  - https://www.youtube.com/watch?v=IuMHaONGAmc
   - https://github.com/thlorenz/stream-viz
 
 ###10 min break
