@@ -27,8 +27,8 @@ Node.js for Devs - Getting Dangerous Fast!
 
 ###10am - 10:40am : Groking JavaScript
 - numbers, arrays, objects (which are just associative arrays), & functions (which are just a special type of object)
-- asynchronous - callbacks, closures, events & promises
-- variable scope, lifting
+- asynchronous - callbacks, events & promises
+- variable scope, lifting, closures 
 - use strict
 - Pro Tip: refer to https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript
 - Joint Walkthrough Coding:  Exploring and getting used to different code control flow techniques for asynchronous calls in JS. 
