@@ -23,7 +23,7 @@ Node.js for Devs - Getting Dangerous Fast!
 - variable scope, lifting
 - use strict
 - Pro Tip: refer to https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript
-- Joint Walkthrough Coding:  Create function containing setInterval() to imitate async IO. Use callbacks to control flow of calling. Redo with events. Redo with promises. 
+- Joint Walkthrough Coding:  Exploring and getting used to different code control flow techniques for asynchronous calls in JS. 
 - More Learning: http://nodeschool.io/#functionaljs
   - http://nodeschool.io/#promiseitwonthurt
 
