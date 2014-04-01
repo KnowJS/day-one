@@ -44,6 +44,7 @@ Node.js for Devs - Getting Dangerous Fast!
 ###10:50am - 11:30am : Groking Node
 - Understanding V8
 - Understanding the Event Loop & async IO
+  - http://stackoverflow.com/a/14797359/602377
 - node, repl, files
 - The CommonJS Module System
   - require, exports, module.exports
