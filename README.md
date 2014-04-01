@@ -80,7 +80,7 @@ Node.js for Devs - Getting Dangerous Fast!
 
 ###1:15pm - 2:15pm - Common Core Modules
 - console, process, events, stream, http, util, child_process
-- events - on vs once, 'error' and 'unhandledException'
+- events - on vs once, 'error' and 'uncaughtException'
 - streams! just like unix pipes, in code - readable, writeable, duplex, transform
   - flowing mode vs non-flowing mode
   - https://github.com/substack/stream-handbook
