@@ -12,7 +12,9 @@
     "passport-github": "~0.1.5",
     "envify": "~1.2.1",
     "react": "~0.10.0",
-    "gm": "~1.14.2"
+    "gm": "~1.14.2",
+    "stream-multiplexer": "~1.0.1",
+    "async": "~0.6.2"
   },
   "devDependencies": {
     "gulp": "~3.5.6",
