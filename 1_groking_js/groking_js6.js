@@ -34,6 +34,12 @@ Promise.all(items)
 	});
 
 /*
- * Neat. That let us write things in yet another terse
- * style that's easy to read and understand.  
+ * Neat. Promises. That let us write things in yet another terse
+ * style that's easy to read and understand. Instead of calling
+ * the callback, we ask for an object that will later tell us
+ * whether the behavior it contains was 'resolved' or 'failed'. 
+ * And, we can chain them together and get all their resolved
+ * values at once. 
+ *
+ * more info on promises in jQuery: https://gist.github.com/patrickleet/9905348
  */ 
