@@ -30,6 +30,7 @@ Node.js for Devs - Getting Dangerous Fast!
 - asynchronous - callbacks, events & promises
 - variable scope, lifting, closures 
 - use strict
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/EventLoop
 - Pro Tip: refer to https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript
 - Joint Walkthrough Coding:  Exploring and getting used to different code control flow techniques for asynchronous calls in JS. 
 - More Learning: http://nodeschool.io/#functionaljs
