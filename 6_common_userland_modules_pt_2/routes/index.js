@@ -15,14 +15,14 @@ var async = require('async');
 exports.resize = function (req, res, next) {
 	function magick (size, cb) {
 		// the uploaded file can be found as `req.files.image` and the
+		var one = fs.createWriteStream(__dirname + '/../public/images/' + size + '.png');
+		one.on('error', cb);
+		one.on('finish', cb);
+
 		imageMagick(req.files.image.path)
 			.resize(size, size)
-			.stream('png', function (err, stdout, stderr) {
-				if (err) return cb(err);
-				var one = fs.createWriteStream(__dirname + '/../public/images/' + size + '.png');
-				stdout.pipe(one);
-				cb();
-			});
+			.stream('png')
+			.pipe(one);
 	}
   // title field as `req.body.title`
   console.log('resizing %s', req.files.image.name);
